@@ -1,9 +1,11 @@
-import Profile from "./components/Profile/Profile";
+import Profile from "./components/Profile";
 import user from "./user.json";
-import Statistics from "./components/Statistics/Statistics";
+import Statistics from "./components/Statistics";
 import statisticalData from "./statistical-data.json";
-import FriendList from "./components/FriendList/FriendList";
+import FriendList from "./components/FriendList";
 import friends from "./friends.json";
+import TransactionHistory from "./components/TransactionHistory";
+import transactions from "./transactions.json";
 
 export default function App() {
   return (
@@ -18,6 +20,7 @@ export default function App() {
       <Statistics title="Upload stats" stats={statisticalData}></Statistics>
       <Statistics stats={statisticalData}></Statistics>
       <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 }
