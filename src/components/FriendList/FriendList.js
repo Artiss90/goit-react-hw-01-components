@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function FriendList({ friends }) {
   return (
-    <ul class="friend-list">
+    <ul className="friend-list">
       {friends.map((user) => (
         <FriendListItem
           key={user.id}
