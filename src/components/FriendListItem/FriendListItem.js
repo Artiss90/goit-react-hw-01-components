@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
-import "./FriendListItem.css";
+import style from "./FriendListItem.module.css";
 
 function FriendListItem({ status, avatar, name }) {
   return (
-    <li className="FriendListItem">
+    <li className={style.friendListItem}>
       <span
         className="status"
         style={{ backgroundColor: status === true ? "green" : "red" }}

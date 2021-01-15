@@ -1,14 +1,14 @@
-.Transaction-history {
+.transactionHistory {
   width: 800px;
   text-align: center;
   font-size: 20px;
 }
 
-.Transaction-history__table-head {
+.tableHead {
   background-color: aqua;
   font-size: 24px;
   font-weight: bold;
 }
-.Transaction-history__table-body {
+.tableBody {
   background-color: antiquewhite;
 }

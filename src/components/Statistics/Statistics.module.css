@@ -1,28 +1,28 @@
-.Statistics {
+.statistics {
   width: 600px;
   padding: 15px 0px;
   font-size: 20px;
   text-align: center;
   background: grey;
 }
-.Statistics__title {
+.title {
   padding: 7px;
   font-size: 24px;
   font-weight: bold;
   background: royalblue;
 }
-.Statistics__stat-list {
+.list {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.Statistics__item {
+.item {
   display: flex;
   flex-direction: column;
   padding: 3px;
   width: 18%;
 }
 
-.Statistics__stat-list:nth-child(2n - 1) {
+.list:nth-child(2n - 1) {
   background-color: rgb(187, 165, 149);
 }
